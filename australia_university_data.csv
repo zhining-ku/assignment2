@@ -1,4 +1,4 @@
-﻿Year,Rank,Institution,Code,Country,Academic Reputation,Employer Reputation,Faculty Student,Citations per Faculty,International Faculty,International Students,Overall
+﻿Year,Rank,Institution,Code,Country,academic_reputation,employer_reputation,faculty_student,citations_per_faculty,international_faculty,internationals_student,Overall
 1/1/2022,  27=,The Australian National University,AU,Australia,94.6,79.3,44.4,95.4,100.0,98.8,84.0
 1/1/2022,  37  ,The University of Melbourne,AU,Australia,98.9,97.3,19.9,89.7,97.1,99.9,81.4
 1/1/2022,  38  ,The University of Sydney,AU,Australia,96.8,95.4,20.9,87.9,100.0,100.0,80.4
