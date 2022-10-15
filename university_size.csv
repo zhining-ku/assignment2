@@ -1,102 +1,102 @@
 ﻿university,year,rank_display,size,faculty_count
-Massachusetts Institute of Technology (MIT) ,2022,1,M,"3,065"
-University of Oxford,2022,2,L,"6,708"
-Stanford University,2022,3,L,"4,725"
-University of Cambridge,2022,3,L,"5,800"
-Harvard University,2022,5,L,"4,646"
+Massachusetts Institute of Technology (MIT) ,2022,1,M,3065
+University of Oxford,2022,2,L,6708
+Stanford University,2022,3,L,4725
+University of Cambridge,2022,3,L,5800
+Harvard University,2022,5,L,4646
 California Institute of Technology (Caltech),2022,6,S,968
-Imperial College London,2022,7,L,"8,000"
-ETH Zurich - Swiss Federal Institute of Technology,2022,8,L,"2,719"
-UCL,2022,8,XL,"7,195"
-University of Chicago,2022,10,L,"2,703"
-National University of Singapore (NUS),2022,11,XL,"4,288"
-"Nanyang Technological University, Singapore (NTU)",2022,12,L,"3,812"
-University of Pennsylvania,2022,13,L,"5,154"
-EPFL,2022,14,M,"1,767"
-Yale University,2022,14,M,"5,391"
-The University of Edinburgh,2022,16,XL,"4,832"
-Tsinghua University,2022,17,XL,"6,174"
-Peking University,2022,18,XL,"5,302"
-Columbia University,2022,19,L,"7,087"
-Princeton University,2022,20,M,"1,050"
-Cornell University,2022,21,L,"2,843"
-The University of Hong Kong,2022,22,L,"2,944"
-The University of Tokyo,2022,23,L,"4,473"
-University of Michigan-Ann Arbor,2022,23,XL,"7,132"
-Johns Hopkins University,2022,25,L,"4,855"
-University of Toronto,2022,26,XL,"9,881"
-McGill University,2022,27,L,"3,876"
-The Australian National University,2022,27,L,"1,763"
-The University of Manchester,2022,27,XL,"4,889"
-Northwestern University,2022,30,L,"3,652"
-Fudan University,2022,31,L,"4,526"
-"University of California, Berkeley (UCB)",2022,32,XL,"3,701"
-Kyoto University,2022,33,L,"3,911"
+Imperial College London,2022,7,L,8000
+ETH Zurich - Swiss Federal Institute of Technology,2022,8,L,2719
+UCL,2022,8,XL,7195
+University of Chicago,2022,10,L,2703
+National University of Singapore (NUS),2022,11,XL,4288
+"Nanyang Technological University, Singapore (NTU)",2022,12,L,3812
+University of Pennsylvania,2022,13,L,5154
+EPFL,2022,14,M,1767
+Yale University,2022,14,M,5391
+The University of Edinburgh,2022,16,XL,4832
+Tsinghua University,2022,17,XL,6174
+Peking University,2022,18,XL,5302
+Columbia University,2022,19,L,7087
+Princeton University,2022,20,M,1050
+Cornell University,2022,21,L,2843
+The University of Hong Kong,2022,22,L,2944
+The University of Tokyo,2022,23,L,4473
+University of Michigan-Ann Arbor,2022,23,XL,7132
+Johns Hopkins University,2022,25,L,4855
+University of Toronto,2022,26,XL,9881
+McGill University,2022,27,L,3876
+The Australian National University,2022,27,L,1763
+The University of Manchester,2022,27,XL,4889
+Northwestern University,2022,30,L,3652
+Fudan University,2022,31,L,4526
+"University of California, Berkeley (UCB)",2022,32,XL,3701
+Kyoto University,2022,33,L,3911
 The Hong Kong University of Science and Technology,2022,34,M,697
-King's College London,2022,35,L,"4,216"
-Seoul National University,2022,36,L,"3,859"
-The University of Melbourne,2022,37,S,"4,835"
-The University of Sydney,2022,38,XL,"3,571"
-The Chinese University of Hong Kong (CUHK),2022,39,L,"2,201"
-"University of California, Los Angeles (UCLA)",2022,40,XL,"4,487"
-KAIST - Korea Advanced Institute of Science & Technology,2022,41,M,"1,307"
-New York University (NYU),2022,42,XL,"7,874"
-The University of New South Wales (UNSW Sydney),2022,43,XL,"3,219"
-UniversitÃ© PSL,2022,44,L,"3,914"
-Zhejiang University,2022,45,XL,"6,065"
-University of British Columbia,2022,46,XL,"6,201"
-The University of Queensland,2022,47,XL,"3,513"
-"University of California, San Diego (UCSD)",2022,48,XL,"4,545"
-Institut Polytechnique de Paris,2022,49,M,"1,057"
-The London School of Economics and Political Science (LSE),2022,49,M,"1,172"
-Shanghai Jiao Tong University,2022,50,XL,"4,386"
-Technical University of Munich,2022,50,XL,"6,663"
-Duke University,2022,52,L,"5,673"
-Carnegie Mellon University,2022,53,L,"1,534"
-City University of Hong Kong,2022,53,M,"1,483"
-University of Amsterdam,2022,55,XL,"6,000"
-Tokyo Institute of Technology (Tokyo Tech),2022,56,M,"1,492"
-Delft University of Technology,2022,57,L,"2,041"
-Monash University,2022,58,XL,"3,852"
-Brown University,2022,60,M,"1,389"
-The University of Warwick,2022,61,L,"2,634"
-University of Bristol,2022,62,L,"20,311"
-Ruprecht-Karls-UniversitÃ¤t Heidelberg,2022,63,L,"4,100"
-Ludwig-Maximilians-UniversitÃ¤t MÃ¼nchen,2022,64,XL,"3,914"
-Universiti Malaya (UM),2022,65,L,"2,386"
-The Hong Kong Polytechnic University,2022,66,L,"2,822"
-University of Texas at Austin,2022,67,XL,"2,887"
-National Taiwan University (NTU),2022,68,L,"2,939"
-Universidad de Buenos Aires (UBA),2022,69,XL,"16,103"
-KU Leuven,2022,70,XL,"2,677"
-University of Zurich,2022,70,L,"3,761"
-Sorbonne University,2022,72,XL,"4,680"
-University of Glasgow,2022,73,L,"3,314"
-Korea University,2022,74,L,"4,026"
-Osaka University,2022,75,L,"3,127"
-University of Wisconsin-Madison,2022,75,XL,"5,166"
-University of Southampton,2022,77,L,"2,468"
-Lomonosov Moscow State University,2022,78,XL,"6,575"
-University of Copenhagen,2022,79,XL,"7,293"
-Yonsei University,2022,79,L,"3,605"
+King's College London,2022,35,L,4216
+Seoul National University,2022,36,L,3859
+The University of Melbourne,2022,37,S,4835
+The University of Sydney,2022,38,XL,3571
+The Chinese University of Hong Kong (CUHK),2022,39,L,2201
+"University of California, Los Angeles (UCLA)",2022,40,XL,4487
+KAIST - Korea Advanced Institute of Science & Technology,2022,41,M,1307
+New York University (NYU),2022,42,XL,7874
+The University of New South Wales (UNSW Sydney),2022,43,XL,3219
+UniversitÃ© PSL,2022,44,L,3914
+Zhejiang University,2022,45,XL,6065
+University of British Columbia,2022,46,XL,6201
+The University of Queensland,2022,47,XL,3513
+"University of California, San Diego (UCSD)",2022,48,XL,4545
+Institut Polytechnique de Paris,2022,49,M,1057
+The London School of Economics and Political Science (LSE),2022,49,M,1172
+Shanghai Jiao Tong University,2022,50,XL,4386
+Technical University of Munich,2022,50,XL,6663
+Duke University,2022,52,L,5673
+Carnegie Mellon University,2022,53,L,1534
+City University of Hong Kong,2022,53,M,1483
+University of Amsterdam,2022,55,XL,6000
+Tokyo Institute of Technology (Tokyo Tech),2022,56,M,1492
+Delft University of Technology,2022,57,L,2041
+Monash University,2022,58,XL,3852
+Brown University,2022,60,M,1389
+The University of Warwick,2022,61,L,2634
+University of Bristol,2022,62,L,20311
+Ruprecht-Karls-UniversitÃ¤t Heidelberg,2022,63,L,4100
+Ludwig-Maximilians-UniversitÃ¤t MÃ¼nchen,2022,64,XL,3914
+Universiti Malaya (UM),2022,65,L,2386
+The Hong Kong Polytechnic University,2022,66,L,2822
+University of Texas at Austin,2022,67,XL,2887
+National Taiwan University (NTU),2022,68,L,2939
+Universidad de Buenos Aires (UBA),2022,69,XL,16103
+KU Leuven,2022,70,XL,2677
+University of Zurich,2022,70,L,3761
+Sorbonne University,2022,72,XL,4680
+University of Glasgow,2022,73,L,3314
+Korea University,2022,74,L,4026
+Osaka University,2022,75,L,3127
+University of Wisconsin-Madison,2022,75,XL,5166
+University of Southampton,2022,77,L,2468
+Lomonosov Moscow State University,2022,78,XL,6575
+University of Copenhagen,2022,79,XL,7293
+Yonsei University,2022,79,L,3605
 Pohang University of Science And Technology (POSTECH),2022,81,S,743
-Durham University,2022,82,L,"1,775"
-Tohoku University,2022,82,L,"3,323"
-University of Illinois at Urbana-Champaign,2022,82,XL,"2,748"
-The University of Auckland,2022,85,L,"2,316"
-University of Washington,2022,85,XL,"2,796"
-UniversitÃ© Paris-Saclay,2022,86,XL,"8,010"
-Lund University,2022,87,L,"3,040"
-Georgia Institute of Technology,2022,88,L,"1,267"
-KTH Royal Institute of Technology ,2022,89,L,"3,600"
-University of Birmingham,2022,90,XL,"3,586"
-University of St Andrews,2022,91,M,"1,208"
-University of Leeds,2022,92,XL,"3,593"
-The University of Western Australia,2022,93,L,"1,539"
+Durham University,2022,82,L,1775
+Tohoku University,2022,82,L,3323
+University of Illinois at Urbana-Champaign,2022,82,XL,2748
+The University of Auckland,2022,85,L,2316
+University of Washington,2022,85,XL,2796
+UniversitÃ© Paris-Saclay,2022,86,XL,8010
+Lund University,2022,87,L,3040
+Georgia Institute of Technology,2022,88,L,1267
+KTH Royal Institute of Technology ,2022,89,L,3600
+University of Birmingham,2022,90,XL,3586
+University of St Andrews,2022,91,M,1208
+University of Leeds,2022,92,XL,3593
+The University of Western Australia,2022,93,L,1539
 Rice University,2022,94,M,996
-The University of Sheffield,2022,95,L,"3,463"
-Pennsylvania State University,2022,96,XL,"4,207"
-Sungkyunkwan University (SKKU),2022,97,L,"3,313"
-University of Science and Technology of China,2022,98,L,"2,708"
-Technical University of Denmark,2022,99,M,"2,219"
-"University of North Carolina, Chapel Hill",2022,100,XL,"4,646"
+The University of Sheffield,2022,95,L,3463
+Pennsylvania State University,2022,96,XL,4207
+Sungkyunkwan University (SKKU),2022,97,L,3313
+University of Science and Technology of China,2022,98,L,2708
+Technical University of Denmark,2022,99,M,2219
+"University of North Carolina, Chapel Hill",2022,100,XL,4646
