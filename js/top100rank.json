@@ -1,0 +1,116 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {"url": "https://raw.githubusercontent.com/zhining-ku/assignment2/main/top100universitydata.csv"},
+  "background": "#ffefe0",
+
+  
+  "params": [{
+        "name": "region",
+        "bind": {"input": "select", 
+        "options": [null, "Asia", "North America", "Europe", "Oceania", "Latin America"
+            ],
+    "labels":[
+    "Show All",
+    "Asia", "North America", "Europe", "Oceania", "Latin America"
+    ],
+    "name": "Continent Selection: "
+    }
+    }
+    ],
+  
+  
+  
+  "transform": [{
+    "window": [{"op": "row_number", "as": "row_number"}]
+    
+    
+  },
+ {"filter": "region==null  || datum.region== region"}],
+  "vconcat": [{
+    "params": [{"name": "brush", "select": "interval"}],
+    "mark": "point",
+    "width": 600,
+    "height": 300,
+    "encoding": {
+      "x": {"field": "rank_display", "type": "quantitative","title":"Rank"},
+      "y": {"field": "score", "type": "quantitative","title": "Score"},
+      
+      "color": {
+        "condition": {"param": "brush", "field": "type", "type": "nominal","title":"Type"},
+        "value": "grey"
+
+      }
+    }
+  }, {
+    "transform": [
+      {"filter": {"param": "brush"}},
+      {"window": [{"op": "rank", "as": "rank"}]},
+      {"filter": {"field": "rank", "lt": 20}},
+
+      {"filter": "region==null  || datum.region== region"}
+
+
+
+      
+    ],
+    "hconcat": [{
+      "width": 50,
+      "title": "Rank",
+      "mark": "text",
+      "encoding": {
+        "text": {"field": "rank_display", "type": "nominal"},
+        "y": {"field": "row_number", "type": "ordinal", "axis": null}
+      }
+    }
+    , {
+      "width": 300,
+      "title": "University",
+      "mark": "text",
+      "encoding": {
+        "text": {"field": "university", "type": "nominal"},
+        "y": {"field": "row_number", "type": "ordinal", "axis": null}
+      }
+    },
+    {
+      "width": 50,
+      "title": "Overall Score",
+      "mark": "text",
+      "encoding": {
+        "text": {"field": "score", "type": "nominal"},
+        "y": {"field": "row_number", "type": "ordinal", "axis": null}
+      }
+    }]
+  }],
+  "resolve": {"legend": {"color": "independent"}}
+  
+  
+}
+
+
+
+
+
+      
+
+
+
+
+
+
+      
+
+
+
+
+
+
+      
+
+
+
+
+
+
+      
+
+

@@ -1,0 +1,34 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "background": "#ffefe0",
+
+
+                          
+    "width": 800,
+    "height": 400,
+    "data": {
+      "values": [
+        {"States and territories": "Australian Capital Territory", "value": 2},
+        {"States and territories": "New South Wales", "value": 10},
+        {"States and territories": "Northern Territory", "value": 1 },
+        {"States and territories": "Queensland", "value":9 },
+        {"States and territories": "South Australia", "value":3 },
+        {"States and territories": "Tasmania", "value": 1},
+        {"States and territories": "Victoria", "value": 7},
+        {"States and territories": "Western Australia", "value":5 }
+      ]
+    },
+    "encoding": {
+      "theta": {"field": "value", "type": "quantitative", "stack": true},
+      "color": {"field": "States and territories", "type": "nominal", "scale":{"scheme":"set2"}}
+    },
+    "layer": [{
+      "mark": {"type": "arc", "outerRadius": 160}
+    }, {
+      "mark": {"type": "text", "radius": 170},
+      "encoding": {
+        "text": {"field": "value", "type": "quantitative"}
+        
+      }
+    }]
+  }

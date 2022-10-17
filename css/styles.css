@@ -1,0 +1,62 @@
+h1{
+    font-weight: 2000;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    font-size: 40pt;
+    
+  }
+   body{
+     background-color: white;
+   }
+   .page{
+     width: 1200px;    
+     background-color: #fcd2bc;   
+     margin: auto;
+     padding: 50px;
+     padding-top: 35px;
+  }
+  .vis-container1{
+    width: 100%;
+    text-align: center;
+
+  }
+  .vis-container2{
+    width: 100%;
+    text-align: left;
+
+  }
+
+  .pure-g{
+    margin-bottom: 25px;
+  }
+
+h2{
+    font-weight: 600;
+    text-align: center;
+
+}
+.brightest { color: #EAF8BE; }
+.nsw {color:#FA8E60;}
+.ql {color:#E889C4;}
+.nt{color:#8DA0CA;}
+.mit{color:#4E75A8;}
+
+p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17pt;
+}
+h2{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20pt;
+}
+h3{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10pt;
+    text-align: center;
+
+}
+
+
+
+

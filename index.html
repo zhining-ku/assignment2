@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>QS World University Rankings 2022</title>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+  <!-- Import pure.css -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+    integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+
+  <!-- CSS file -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+
+
+</head>
+
+<body>
+
+  <div class="page">
+
+
+
+    <h1>QS World University Rankings 2022</h1>
+    <p style="text-align:center">QS World University Rankings are ranking of the world's top universities published by Quacquarelli Symonds.
+    </p>
+    <p style="text-align:center">It is <b>one of the three</b> most widely read university rankings other than Times Higher Education and ARWU.
+    </p>
+  
+    <br>
+
+    <h2>How are the world’s top universities distributed?</h2>
+
+
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <div id="vis1" class="vis-container1"></div>
+        <p style="text-align:center">From the map above, we can see that most of the top universities are from <b>United States of America</b>. 
+        </p>
+        <p style="text-align:center">The countries that have no top universities representation are shaded with <span class="brightest">brightest</span> colour.
+        </p>
+        <p style="text-align:center">The darker the shade on the map, the more top universities located in that particular country.
+        </p>
+      </div>
+    </div>
+
+    <h2>Number of top universities in different state and territory of Australia</h2> 
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <div id="vis2" class="vis-container1"></div>
+        <p style="text-align:center">From the pie chart above, we can conclude that most of the top universities are located in <span class="nsw">New South Wales</span>, and followed by <span class="ql">Queensland</span>.
+        </p>
+        <p style="text-align:center">There is only one top university that is located in <span class="nt">Northern Territory</span>.
+        </p>
+        <p style="text-align:center">In overall, there is <b>at least one</b> top universities in each state and territory of Australia.
+        </p>
+      </div>
+    </div>
+
+  
+  <h2>Top 100 Universities ranking and their scores respectively</h2>
+  <h3>*Brush scatter plot to show university name and ranking on table below*
+  </h3>
+  <div class="pure-g">
+    <div class="pure-u-1-3">
+      <div id="vis3" class="vis-container1"></div>
+
+    </div>
+    <div class="pure-u-1-3">
+
+    </div>
+    <div class="pure-u-1-3">
+    <div>
+      <p>From the scatter plot, we can see that Massachusetts Institute of Technology from North America continent ranked 1st among
+        all the universities around the world.</p>
+      <p>National University of Singapore ranked 1st among all the universities in Asia and ranked 11th worldwide.</p>
+      <p>The Australian National University ranked 1st among all the universities in Oceania and ranked 27th worldwide.</p>
+      <p>Universidad de Buenos Aires is the only one from Latin America that is included in world top 100 universities.</p>
+    </div>
+    </div>
+  </div>
+
+  <h2>Relationship between different scores</h2>
+  <h3>*Use the slider to start exploring!*</h3>
+
+
+  
+  <div class="pure-g">
+    <div class="pure-u-1-2">
+      <p><b>Academic reputation</b>: Weight 40% of the overall score. Looks at the quality of teaching and research at every universities</p>
+      <p><b>Employer reputation</b>: Related to how universities provide the most competent graduates.</p>
+      <p><b>Citations per faculty</b>: Total number of academic citations in papers produced by universities.</p>
+      <p>From the parallel coordinate plot, we can see that having a higher rank doesn't mean that having all higher scores compared to the lower rank university.</p>
+      <p>There might be some universities scoring exceptionally well in particular area but not the other area.</p>
+
+    </div>
+
+    <div class="pure-u-1-2">
+      <div id="vis4" class="vis-container1"></div>
+    </div>
+  </div>
+  
+
+
+
+  <h2>Top 10 Universities over the years (2017-2022)</h2>
+
+  <div class="pure-g">
+    <div class="pure-u-1-1">
+      <div id="vis5" class="vis-container1"></div>
+      <p style="text-align:center">From the bump chart, we can see that <span class="mit">Massachusetts Institute of Technology</span> ranked 1st throughout the years.
+      </p>
+      <p style="text-align:center">Besides that, all the top 10 universities <b>remain the same</b> from 2017 to 2022.
+      </p>
+    </div>
+  </div>
+
+
+
+  <h2>Number of faculty or academic staff in top 20 universities </h2>
+  <h3>*Use the drop-down menu to check the size of the university*</h3>
+   
+  <div class="pure-g">
+      <div class="pure-u-1-1">
+        <div id="vis6" class="vis-container1"></div>
+      </div>
+  </div>
+
+
+      <p>This visualisation is created by <a href="https://github.com/" target="_blank">Zhi Ning Ku </a></p>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+  </div> <!-- end page -->
+
+  <script type="text/javascript">
+    var specVis1 ="./js/top_university_distribution.json";
+    var specVis2 ="./js/australia_state.json"; 
+    var specVis3 = "./js/top100rank.json";
+    var specVis4 ="./js/different_score.json";
+    var specVis5 = "./js/rank_over_year.json";
+    var specVis6="./js/faculty_count.json";
+
+
+  
+
+
+  
+
+    vegaEmbed('#vis1', specVis1, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+    vegaEmbed('#vis2', specVis2, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+    vegaEmbed('#vis3', specVis3, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+    vegaEmbed('#vis4', specVis4, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+    vegaEmbed('#vis5', specVis5, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+    vegaEmbed('#vis6', specVis6, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+  </script>
+</body>
+
+</html>

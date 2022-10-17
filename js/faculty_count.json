@@ -1,0 +1,81 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+
+  "data": {
+    "url": "https://raw.githubusercontent.com/zhining-ku/assignment2/main/university_size.csv"
+  },
+  "background":null,
+  "height": {"step": 50},
+  "width": 800,
+  "mark": {
+    "type": "bar",
+    "fill": "#7d7098",
+    "stroke": "black",
+    "cursor": "pointer",
+    "yOffset": 5,
+    "cornerRadiusEnd": 2,
+    "height": {"band": 0.5}
+  },
+  "params": [
+    {
+      "name": "size_selection",
+      "bind": {
+        "input": "select",
+        "options": [null, "S", "M", "L", "XL"],
+        "labels": ["Show All", "S", "M", "L", "XL"],
+        "name": "Size Selection: "
+      }
+    },
+
+    {"name": "highlight", "select": {"type": "point", "on": "mouseover"}},
+    {"name": "select", "select": "point"}
+  ],
+  "encoding": {
+    "y": {
+      "field": "university",
+      "title": "University",
+      "scale": {"padding": 0},
+      "axis": {
+        "bandPosition": 0,
+        "grid": true,
+        "domain": false,
+        "ticks": false,
+        "labelAlign": "left",
+        "labelBaseline": "middle",
+        "labelPadding": -5,
+        "labelOffset": -15,
+        "titleX": 5,
+        "titleY": -5,
+        "titleAngle": 0,
+        "titleAlign": "left",
+        "labelLimit": 0
+      }
+    },
+    "x": {
+      "field": "faculty_count",
+      "type": "quantitative",
+      "axis": {"grid": false},
+      "title": "Number of faculty or academic staff"
+    },
+    "fillOpacity": {"condition": {"param": "select", "value": 1}, "value": 0.3},
+    "strokeWidth": {
+      "condition": [
+        {"param": "select", "empty": false, "value": 2},
+        {"param": "highlight", "empty": false, "value": 1}
+      ],
+      "value": 0
+    },
+    "tooltip": [
+      {
+        "field": "faculty_count",
+        "type": "quantitative",
+        "title": "Number of staff"
+      }
+    ]
+  },
+  "transform": [
+    {"filter": "size_selection == null || datum.size == size_selection"},
+    {"filter": "datum.rank_display <=20 "}
+  ]
+}
